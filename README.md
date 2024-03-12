@@ -57,10 +57,22 @@ Membership operator (in / not in)
 
 #FUNCTIONS
 A function is like a machine that takes input and produces outputs.
-  def multipyByThree(val);
+It can be defined using the "def" keyword followed by the function name and arguments in parentheses.
+The function body is indented and contains code that performes the desires operation on the input and the "return" keyword returns the output.
+The keyword "none" represents the absence of a value. It is basically used when a function does not return any value.
   
-ddd
+#CLASSES AND OBJECTS
+A class helps to label and organise related collections of classes and attributes.
+Initialization (Init) function is called everytime an instance of a class is created.
+The init function takes in a variable called "self" which refers to a specific instance in a class.
+    
+       class Dog:
+       def _Init_(self, name)
+       self.name = name
+       self.legs = 4
 
+       def speak (self):
+       print (self.name+ 'says: bark')
 
 
 

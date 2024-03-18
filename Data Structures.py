@@ -15,3 +15,21 @@ courses.remove('Maths')     #Remove a course from the list
 print(courses)
 
 courses.sort()      #Sort courses list
+
+#Sets
+thisfruit = {"apple", "banana", "cherry"}
+thisvegetables= {"carrot", "potato", "spinach"}
+print(thisfruit.union(thisvegetables))
+
+#Tuples
+thistuple = ("apple", "banana", "cherry")
+print(thistuple)    
+
+#Dictionaries
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(thisdict)
+
